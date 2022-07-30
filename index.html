@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" {{ HTML_ATTRS }}>
+  <head>
+    {{ HEAD }}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--preload-links-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2K9CSS0PL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // TODO: replace you with your own tracking ID
+      gtag('config', 'XXXXX');
+    </script>
+  </head>
+  <body {{ BODY_ATTRS }}>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/src/entry-client.js"></script>
+
+    <!--INITIAL_STATE-->
+  </body>
+</html>
