@@ -4,6 +4,7 @@ vue3 ssr example, no vite-ssr or vite-ssr-plugin used
 
 ## Features
 
+- [x] typescript
 - [x] tailwindcss 
 - [x] eslint 
 - [x] stylelint 
