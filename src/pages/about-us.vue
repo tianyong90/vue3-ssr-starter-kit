@@ -13,10 +13,6 @@ import { onMounted } from 'vue'
 
 import bgResource from '@/assets/img/about/banner.jpg'
 
-import WhyTrustUs from '@/components/about-us/WhyTrustUs.vue'
-import CertificateSwiper from '@/components/about-us/CertificateSwiper.vue'
-import VisionAndMission from '@/components/about-us/VisionAndMission.vue'
-
 import { useHeadByKey } from '@/composables/useSeo'
 
 // GSAP
